@@ -7,7 +7,7 @@
 
 <body>
     <h1>Create Employee</h1>
-    <form action="{{ route('employees.store') }}" method="POST" enctype="multipart/formdata">
+    <form action="{{ route('employees.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
