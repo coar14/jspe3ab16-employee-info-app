@@ -16,7 +16,7 @@
         <input type="email" id="email" name="email" required>
         <br>
         <label for="photo">Photo:</label>
-        <input type="file" id="photo" name="photo">
+        <input type="file" id="photo" name="photo" accept=".png, .jpg, .jpeg ">
         <br>
         <button type="submit">Create</button>
     </form>

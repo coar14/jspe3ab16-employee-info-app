@@ -17,7 +17,7 @@
                 <p>Name: {{ $employee->name }}</p>
                 <p>Email: {{ $employee->email }}</p>
                 @if ($employee->photo)
-                <img src="{{ asset('storage/app/employee_photos/' . $employee->photo) }}" alt="{{ $employee->name }}" width="200">
+                <img src="{{ asset('storage/' . $employee->photo) }}" alt="Photo of {{ $employee->name }}" width="200">
 
                     <p>Image Path: {{ asset('storage/app/employee_photos/' . $employee->photo) }}</p>
 
